@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Clock</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="clock-container">
+    <svg class="clock" xmlns="https://www.w3.org/TR/SVG/" viewBox="0 0 200 200">
+      <circle class="clock-face" cx="100" cy="100" r="90"/>
+      <line class="hour-hand" x1="100" y1="100" x2="100" y2="60"/>
+      <line class="minute-hand" x1="100" y1="100" x2="100" y2="40"/>
+  
+      <circle class="center-point" cx="100" cy="100" r="2"/>
+    </svg>
+    <div>
+        <button class="check time">check time</button>
+    </div>
+  </div>
+</body>
+</html>
+
