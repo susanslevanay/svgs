@@ -1,63 +1,58 @@
 
-    body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-    }
-    
-    .clock {
-        width: 200px;
-        height: 200px;
-        animation: symbolZoom 3s ease; 
-        animation-iteration-count: 5;
-    }
-    
-    .clock-face {
-        fill: #370fd8;
-    }
-    
-    .hour-hand,
-    .minute-hand, 
-    .second-hand{
-        stroke: #333;
-        stroke-width: 5;
-        stroke-linecap: round;
-    }
-    
-    .center-point {
-        fill: #333;
-    }
-    
-    @keyframes symbolZoom {
-        from {transform: scale(1); rotate: 0deg;}
-        to {transform: scale(1.2); rotate: 20deg;}
-    }
-    
-    .second-hand {
-        animation: rotate 60s linear infinite;
-    }
-    
-    .minute-hand {
-        animation: rotate 3600s linear infinite;
-    }
-    
-    .hour-hand {
-        animation: rotate 43200s linear infinite;
-    }
-    .check-time{
-        background-color: rgb(0, 255, 123);
-        color: rgb(255, 240, 240);
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 400;
-        font-size: 15px;
-        border-radius: 20px;
-        height: 30px;
-    }
-    .check-time:hover {
-        opacity: 1;
-        font-size: 20px;
-        transition: all 1s ease-in-out;
-    }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .clock {
+            width: 200px;
+            height: 200px;
+            animation: symbolZoom 3s ease; 
+            animation-iteration-count: 5;
+        }
+        
+        .clock-face {
+            fill: #370fd8;
+        }
+        
+        .hour-hand,
+        .minute-hand, 
+        .second-hand{
+            stroke: #333;
+            stroke-width: 5;
+            stroke-linecap: round;
+        }
+        
+        .center-point {
+            fill: #333;
+        }
+        
+        @keyframes symbolZoom {
+            from {transform: scale(1); rotate: 0deg;}
+            to {transform: scale(1.2); rotate: 20deg;}
+        }
+        .minute-hand {
+            animation: rotate 3600s linear infinite;
+        }
+        
+        .hour-hand {
+            animation: rotate 43200s linear infinite;
+        }
+        .check-time{
+            background-color: rgb(0, 255, 123);
+            color: rgb(255, 240, 240);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 15px;
+            border-radius: 20px;
+            height: 30px;
+        }
+        .check-time:hover {
+            opacity: 1;
+            font-size: 20px;
+            transition: all 1s ease-in-out;
+        }
