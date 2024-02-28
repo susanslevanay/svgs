@@ -7,16 +7,30 @@
   <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-  <div class="clock-container">
-    <svg class="clock" xmlns="https://www.w3.org/TR/SVG/" viewBox="0 0 200 200">
-      <circle class="clock-face" cx="100" cy="100" r="90"/>
-      <line class="hour-hand" x1="100" y1="100" x2="100" y2="60"/>
-      <line class="minute-hand" x1="100" y1="100" x2="100" y2="40"/>
-      <circle class="center-point" cx="100" cy="100" r="2"/>
-    </svg>
-    <div>
-        <button class="check-time">check time</button>
-    </div>
-  </div>
+    <main>
+        <div class="container1">
+            <div class="container-cards">
+                <div class="clock">
+                    <svg  width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="110" cy="110" r="100" stroke-width="10" fill="black" stroke=" black"/>
+                        <polyline points="65,115 115,115 115,55 " stroke="white" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div >
+                    <button class="buttons">Check the time</button>
+                </div>
+            </div>
+            <div class="container-cards">
+            </div>
+                    <svg class="animate__animated animate__bounce">
+                        <use href="images/easy-envelope.png"></use>
+                    </svg>
+                </div>
+                <div >
+                    <button class="buttons">Check your mail</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
-</html> 
+</html>
