@@ -1,0 +1,5 @@
+<svg width="240" height="240"  fill="none" xmlns="http://www.w3.org/2000/svg">
+            <symbol id="letter" viewbox="0 0 240 240">
+                <polyline points="10,10 10,140 200,140 200,10 10,10 105,80 200,10 " fill="white" stroke="black" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+            </symbol>
+</svg>

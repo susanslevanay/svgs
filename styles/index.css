@@ -1,15 +1,4 @@
-    header {
-        display: flex;
-        background-color: rgb(47, 93, 107);justify-content: center;
-        max-width: 1400px;
-        width: 100%;
-        max-height: 400px;
-        color: rgb(125, 166, 212);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 40px;
-    }
-
-    main {
+     main {
         max-width: 1400px;
         width: 100%;
         background-color: rgb(211, 149, 73);
@@ -22,6 +11,7 @@
         padding: 100px;
         border: 2px solid darkolivegreen; 
     }
+   
     .container-cards {
         display: flex;
         flex-flow: column wrap;
@@ -51,7 +41,7 @@
         margin-bottom: 50px;
     }
     .buttons:hover {
-        opacity: 0.7;
+        opacity: 1;
         font-size: 15px;
         transition: all 1s ease-in-out;
         }
@@ -65,3 +55,4 @@
         align-self: center;
         margin-left: 85px;
     }
+   
